@@ -1,45 +1,44 @@
-/******************************************
-/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
-/*******************************************/
-
-/* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-h1, h2{
+h1,
+h2 {
   text-align: center;
 }
-img{
+img {
   display: block;
-  height: 300px;
+  height: 400px;
   margin: 0 auto;
 }
-ul{
-  width: 100px;
-  height: 200px;
+ul {
+  width: min-content;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
 }
-li{
-  width: 94px;
-  height: 65px;
+li {
+  width: 6rem;
+  height: 4rem;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
+#purple {
+  background: rgba(241, 63, 247, 1);
 }
-#green{
-  background: rgba(0,253,81,1);
+#green {
+  background: rgba(0, 253, 81, 1);
 }
-#blue{
-  background: rgba(0,254,255);
+#blue {
+  background: rgba(0, 254, 255);
 }
